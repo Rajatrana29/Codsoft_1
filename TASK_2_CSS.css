@@ -1,0 +1,70 @@
+body{
+    font-family: 'Nunito', sans-serif;
+    transition: 1s;
+}
+.navbar-brand {
+    display: flex;
+    align-items: center; 
+}
+#University-heading {
+    margin: 0 0 0 450px; 
+    font-size: 40px;
+    font-weight: 700;
+    color:#005689;
+}
+.navbar {
+    justify-content: center; 
+}
+.equal-height-row{
+    display: flex;
+    align-items: stretch;
+}
+.left-column{
+    background-color: #113f67;
+    display: flex;
+
+}
+#first-p, #second-p{
+    color: white;
+    margin: 2em;
+    padding: 1.5em 3em;
+    background-color: #007cb9;
+}
+#first-p:hover, #second-p:hover{
+    background-color: #005689;
+}
+.text-colour{
+    color: white;
+}
+.footer-class{
+    background-color: #155263;
+    padding: 3em 3em;
+}
+p{
+    line-height: 2;
+    font-size: 1.1em;
+}
+
+.first-col, .second-col, .third-col, .border-r{
+    border-right: 1px solid white;
+}
+.link-class{
+    text-decoration: none;
+    line-height: 2;
+    
+}
+.link-class:hover{
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+h1, h2{
+    font-weight: 700;
+}
+.second-footer{
+    background-color: #2772db;
+    padding: 10px 0 10px;
+}
+.copyright-statement{
+    padding-left: 10px;
+}
+
